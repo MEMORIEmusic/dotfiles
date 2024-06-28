@@ -1,0 +1,31 @@
+#           _                 _ _   _         
+#     /\   | |               (_) | | |        
+#    /  \  | | __ _  ___ _ __ _| |_| |_ _   _ 
+#   / /\ \ | |/ _` |/ __| '__| | __| __| | | |
+#  / ____ \| | (_| | (__| |  | | |_| |_| |_| |
+# /_/    \_\_|\__,_|\___|_|  |_|\__|\__|\__, |
+#                                        __/ |
+#                                       |___/ 
+# --------------------------------------------
+# By MEMORIE
+# --------------------------------------------
+
+import=["~/.cache/wal/colors-alacritty.toml"]
+
+[font]
+normal.family = "SF Mono"
+bold.family = "SF Mono"
+italic.family = "SF Mono"
+bold_italic.family = "SF Mono"
+
+[window]
+dynamic_padding = true
+opacity = 1.0
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[window.padding]
+x = 5
+y = 5

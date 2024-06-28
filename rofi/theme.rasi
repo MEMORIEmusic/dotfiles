@@ -1,0 +1,93 @@
+@import "~/.cache/wal/colors-rofi-dark.rasi"
+window {
+  border-radius: 15px;
+	width: 45%;
+	location: center;
+	ancor: center;
+	spacing: 0;
+	children: [mainbox];
+	orientation: horizontal;
+}
+mainbox {
+    children: [ inputbar, message, listview ];
+}
+message {
+    padding: 5px;
+}
+inputbar {
+    color: @foreground;
+    padding: 11px;
+    border: 0px 0px 2px 0px;
+    border-color: @foreground;
+}
+
+entry,prompt,case-indicator {
+    text-font: inherit;
+    text-color: @foreground;
+}
+
+prompt {
+    margin: 0px 5px 0px 0px;
+}
+
+listview {
+    lines: 10;
+}
+
+entry {
+    placeholder: " ";
+    cursor: text;
+}
+
+element {
+    padding: 8px;
+    vertical-align: 0.5;
+    font: inherit;
+}
+
+element-text {
+    background-color: inherit;
+    text-color: @foreground;
+}
+
+element.selected.normal {
+    background-color: @selected-normal-background;
+    border-radius: 10px;
+}
+
+element.normal.active {
+    background-color: @active-background;
+    border-radius: 10px;
+}
+element.selected.active {
+    background-color: @selected-active-background;
+    border-radius: 10px;
+}
+
+element.normal.urgent {
+    background-color: @urgent-background;
+    border-radius: 10px;
+}
+
+element.selected.urgent {
+    background-color: @selected-urgent-background;
+    border-radius: 10px;
+}
+
+button {
+    background-color: @foreground;
+    padding: 10px;
+    expand: false;
+    border-radius: 10px;
+}
+
+button.selected {
+    background-color: @selected-normal-background;
+    border-radius: 10px;
+}
+
+dummy {
+    background-color: transparent;
+    expand: false;
+    padding: 5px 0px 0px 0px;
+}
