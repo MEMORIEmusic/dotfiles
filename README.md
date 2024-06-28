@@ -15,8 +15,8 @@ dotfiles for my linux rice :)
 ・[xgd-user-dirs](https://freedesktop.org/wiki/Software/xdg-user-dirs/)<br />
 
 # Fonts:
-・ [JetBrainsMono Nerd Font]()<br />
-・ [SF Mono]()<br />
+・ [JetBrainsMono Nerd Font](https://www.nerdfonts.com/font-downloads)<br />
+・ [SF Mono](https://developer.apple.com/fonts/)<br />
 
 # Install instructions:
 **__Disclaimer: This is my very first rice, pardon me for not having an install script!__**<br />
