@@ -13,6 +13,7 @@ dotfiles for my linux rice :)
 ・[swaylock-effects](https://github.com/mortie/swaylock-effects)<br />
 ・ [grim](https://github.com/emersion/grim)<br />
 ・[xgd-user-dirs](https://freedesktop.org/wiki/Software/xdg-user-dirs/)<br />
+・[fastfetch](https://github.com/fastfetch-cli/fastfetch)<br />
 
 # Fonts:
 ・ [JetBrainsMono Nerd Font](https://www.nerdfonts.com/font-downloads)<br />
@@ -27,7 +28,7 @@ dotfiles for my linux rice :)
 
 **__Another disclaimer: I have not configured swaylock yet__**<br />
 
-Oh, and here's the [wallpaper](https://www.wallpaperflare.com/anime-rascal-does-not-dream-of-bunny-girl-senpai-mai-sakurajima-wallpaper-glkfa) in the image I attached above :)
+Oh, and here's the [wallpaper](https://twitter.com/aobuta_anime/status/1043093072756662272) in the image I attached above :)
 
 Please text me on discord regarding anything that needs to be fixed: @memorie.music<br />
 And please give me feedback on my music too [my music](https://push.fm/fl/memorie-music)! 

@@ -3,7 +3,7 @@
 CHOSEN=$(printf "About this Device...\nSleep\nRestart...\nShut Down..." | rofi -dmenu -i -theme-str '@import "~/.config/rofi/power-config/power-config.rasi"' -p "Arch")
 
 case "$CHOSEN" in 
-    "About this Device...") alacritty --hold -e neofetch ;;
+    "About this Device...") alacritty --hold -e fastfetch -l small ;;
     "Sleep") slock 1 ;;
     "Restart...") reboot ;;
     "Shut Down...") poweroff ;;
